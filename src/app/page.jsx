@@ -184,6 +184,7 @@ const Fusion2K25 = () => {
   ))}
 </div>
 
+
 <div className="mt-6 relative z-30" ref={linkRef}>
   <a
     href="https://linktr.ee/yourlink"
@@ -193,8 +194,8 @@ const Fusion2K25 = () => {
   >
     🌟 linktr.ee/you
   </a>
-  <p className="text-gray-500 text-sm mt-2">
-    Join Fusion2K25 on Linktree today
+  <p className="text-gray-500 text-center text-sm mt-2">
+    Join TECNETICS on Linktree today
   </p>
 </div>
 
@@ -206,7 +207,7 @@ const Fusion2K25 = () => {
 };
 
 const TractorModel = () => {
-  const myModel = useLoader(GLTFLoader, "/earth.glb");
+  const myModel = useLoader(GLTFLoader, "https://res.cloudinary.com/dtnotszn5/image/upload/v1742724024/Cloudinary%203D/models/earth_1_dppjn6.glb");
   const modelRef = useRef(null);
   const mixerRef = useRef(null);
   const clock = new Clock();
@@ -241,7 +242,7 @@ const TractorModel = () => {
   return (
     <group
       ref={modelRef}
-      scale={20}
+      scale={4}
       position={[0, 0, 0]}
       rotation={[0, 0, 0]}
     >
