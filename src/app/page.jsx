@@ -150,7 +150,7 @@ const Fusion2K25 = () => {
       of engaging competitions, workshops, and technical events.
     </p>
   </div>
-        <div className="space-y-4 w-full flex flex-col gap-1 overflow-y-auto relative z-30">
+        <div className="space-y-4 w-full flex flex-col gap-1  relative z-30">
   {eventData.map((event, index) => (
     <Link
       href={event.link}
