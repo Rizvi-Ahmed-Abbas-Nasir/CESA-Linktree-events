@@ -25,7 +25,7 @@ import Image from "next/image";
 
 const eventData = [
   {
-    name: "Flag QUEST",
+    name: "FLAG QUEST",
     icon: <FaFlag className="text-yellow-500 text-xl" />,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdIaVWU-qaq2pTvMe9Ft1B9Jlg3vDFCTl3OxEdNYNJ1kE4pAg/viewform?usp=header",
   },
