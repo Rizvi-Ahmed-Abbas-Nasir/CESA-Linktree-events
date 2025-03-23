@@ -10,7 +10,10 @@ import {
   FaGamepad,
   FaCamera,
   FaEllipsisV,
+  FaHeart, 
+  FaInstagram, 
 } from "react-icons/fa";
+
 import gsap from "gsap";
 import SplitType from "split-type";
 import { Canvas, useFrame, useLoader } from "@react-three/fiber";
@@ -53,8 +56,13 @@ const eventData = [
   },
   {
     name: "PIXEL PERFECT",
-    icon: <FaCamera className="text-purple-500 text-xl" />,
+    icon: <FaCamera className="text-black-500 text-xl" />,
     link: "https://forms.gle/8gHjaaFJtsC2x5cT7",
+  },
+  {
+    name: "INTAGRAM",
+    icon: <FaInstagram className="text-purple-500 text-xl" />,
+    link: "https://www.instagram.com/cesa.vppcoe/",
   },
 ];
 
@@ -140,7 +148,7 @@ const Fusion2K25 = () => {
       ref={titleRef}
       className="text-4xl sm:text-6xl font-bold text-white relative z-30"
     >
-      TECNETICS
+      TECHNETICS
     </h1>
     <p
       ref={descRef}
@@ -194,9 +202,12 @@ const Fusion2K25 = () => {
   >
     🌟 linktr.ee/you
   </a>
-  <p className="text-gray-500 text-center text-sm mt-2">
-    Join TECNETICS on Linktree today
-  </p>
+  <div className="w-[100%] flex justify-center items-center">
+  <div> <p className="text-gray-500 text-center text-sm mt-2 flex">
+    Made With <FaHeart className="text-red-500  text-2xl p-1" /> By CESA TEAM
+  </p></div>
+  </div>
+ 
 </div>
 
 
@@ -235,7 +246,7 @@ const TractorModel = () => {
 
   useFrame((_state, delta) => {
     if (modelRef.current) {
-      modelRef.current.rotation.y += delta * 0.1;
+      modelRef.current.rotation.y += delta * 0.3;
     }
   });
 
