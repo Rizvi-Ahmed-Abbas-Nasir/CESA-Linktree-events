@@ -154,7 +154,7 @@ const Fusion2K25 = () => {
       ref={descRef}
       className="text-gray-300 text-sm max-w-md opacity-0 translate-y-4 relative z-30"
     >
-      Tecnetics is a technical event by VPPCOE University, featuring a variety
+      Technetics is a technical event by VPPCOE University, featuring a variety
       of engaging competitions, workshops, and technical events.
     </p>
   </div>
