@@ -40,12 +40,12 @@ const eventData = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSebsG4KJvqHqHnerzcBTRmrVCopt8AzVpd3CuGOXGIUBsMlAA/viewform?usp=header",
   },
   {
-    name: "ClASH OF MINDS",
+    name: "CLASH OF MINDS",
     icon: <FaBrain className="text-green-400 text-xl" />,
     link: "https://forms.gle/xNCyYincMfAEn4Su7",
   },
   {
-    name: "RING OF WIN",
+    name: "RING AND WIN",
     icon: <FaRing className="text-pink-500 text-xl" />,
     link: "https://forms.gle/zMC5rxFoH8AWCDvd9",
   },
@@ -60,7 +60,7 @@ const eventData = [
     link: "https://forms.gle/8gHjaaFJtsC2x5cT7",
   },
   {
-    name: "INTAGRAM",
+    name: "INSTAGRAM",
     icon: <FaInstagram className="text-purple-500 text-xl" />,
     link: "https://www.instagram.com/cesa.vppcoe/",
   },
