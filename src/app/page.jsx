@@ -152,10 +152,9 @@ const Fusion2K25 = () => {
     </h1>
     <p
       ref={descRef}
-      className="text-gray-300 text-sm max-w-md opacity-0 translate-y-4 relative z-30"
+      className="text-gray-300 text-sm max-w-xl py-2 opacity-0 translate-y-4 relative z-30"
     >
-      Technetics is a technical event by VPPCOE University, featuring a variety
-      of engaging competitions, workshops, and technical events.
+     Technetics is an event organised by CESA & CSI which is a combination of various technical as well as non-technical activities that will help the students to improve & showcase their skills.
     </p>
   </div>
         <div className="space-y-4 w-full flex flex-col gap-1  relative z-30">
@@ -204,7 +203,7 @@ const Fusion2K25 = () => {
   </a>
   <div className="w-[100%] flex justify-center items-center">
   <div> <p className="text-gray-500 text-center text-sm mt-2 flex">
-    Made With <FaHeart className="text-red-500  text-2xl p-1" /> By CESA TEAM
+    Made With <FaHeart className="text-red-500  text-2xl p-1" /> By CESA & CSI TEAM
   </p></div>
   </div>
  
